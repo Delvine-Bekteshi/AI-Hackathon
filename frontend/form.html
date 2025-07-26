@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>BabyLu_Form</title>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="formStyle.css">
+    </head>
+    <body>
+        <main>
+            <div class="form-container">
+            <img src="../photos/BabyLu.png" alt="" id="icon">
+            <p id="mood-description">Choose up to two animal moods that best capture how your baby felt today.</p>
+            <form action="Submit" id="form" method="Post">
+
+                <div class="checkbox-group">
+                <label>
+                    🐢 Sleepy Turtle
+                    <input type="checkbox" name="mood" value="sleepy_turtle">
+                </label>
+                </div>
+                <div class="checkbox-group">
+                <label>
+                    🦄 Overstimulated Unicorn
+                    <input type="checkbox" name="mood" value="overstimulated_unicorn">
+                </label>
+            </div>
+                <div class="checkbox-group">
+                <label>
+                    🐙 Anxious Octopus
+                    <input type="checkbox" name="mood" value="anxious_octopus">
+                </label>
+                </div>
+                <div class="checkbox-group">
+                <label>
+                    🦖 Dinosaur Tantrum
+                    <input type="checkbox" name="mood" value="dinosaur_tantrum">
+                </label>
+                </div>
+                <div class="checkbox-group">
+                <label>
+                    🦥 Gentle Sloth
+                    <input type="checkbox" name="mood" value="gentle_sloth">
+                </label>
+                </div>
+                <div class="checkbox-group">
+                <label>
+                    🐝 Buzzing Bee
+                    <input type="checkbox" name="mood" value="buzzing_bee">
+                </label>
+                </div>
+                <div class="checkbox-group">
+                <label>
+                    🐸 Jumping Frog
+                    <input type="checkbox" name="mood" value="jumping_frog">
+                </label>
+                </div>
+                <div class="checkbox-group">
+                <label>
+                     🐇 Startled Bunny
+                    <input type="checkbox" name="mood" value="startled_bunny">
+                </label>
+                </div>
+                <div class="checkbox-group">
+                <label>
+                    🐿️ Chattering Chipmunk
+                    <input type="checkbox" name="mood" value="chattering_chipmunk">
+                </label>
+                </div>
+                <div class="checkbox-group">
+                <label>
+                    🐌 Yawning Snail
+                    <input type="checkbox" name="mood" value="yawning_snail">
+                </label>
+                </div>
+            
+                <div class="buttons">
+                <button type="submit" id="submit">Submit</button>
+                <a href="index.html"><button type="back" id="back">Back</button></a>
+            </div>
+            </form>
+            </div>
+        </main>
+        <script src="formScript.js"></script>
+    </body>
+</html>
